@@ -1,3 +1,5 @@
+package Core;
+
 public class Fibonacci {
     public static void main(String[] args){
         int[][] m = new int[3][3];

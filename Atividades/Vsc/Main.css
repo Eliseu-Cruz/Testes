@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 32px 0;
+    background-color: #000080;
+    color: #F0F8FF;
+}
+
+#contato .container header {
+    background-color: #fff;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+ul li a{
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+.brands-list img{
+    height: 24px;
+    padding-left: 32px;
+}
+
+section .container {
+    align-items: flex-start;
+    margin-top: 24px;
+}
+
+section .container div h2, p {
+    margin-left: 32px;
+}
+
+section .container div p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+section .container div h2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+header,
+section h2, h3 {
+    font-family: "Bungee", cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+section h2, h3 {
+    color: #000080;
+}
+
+.social img {
+    height: 28px;
+}
+
+.social ul li {
+    display: inline;
+    margin-right: 18px;
+    margin-top: 8px;
+}
+
+#contato .container {
+    display: block;
+}
+
+.contacts-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    height: 180px;
+    resize: none;
+}
+
+section h3 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+section h2 {
+    margin-top: 60px;
+}
+
+button {
+    color: #fff;
+    background-color: #000080;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2727c0;
+}
+
+input:focus, textarea:focus {
+    outline-color: #2727c0;
+}
+
+footer {
+    background-color: #000080;
+    color: #fff;
+    padding: 16px 0;
+}
